@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class TicTakToe {
     public static final Scanner SCANNER = new Scanner(System.in);
-    private static final int SIZE = 5; 
+    private static final int SIZE = 5;
     private static final int DOTE_TO_WIN = 4;
     private static final char DOT_EMPTY = '•';
     private static final char DOT_X = 'X';
@@ -158,6 +158,4 @@ public class TicTakToe {
             }
         }
     }
-
-
 }
